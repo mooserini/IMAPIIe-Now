@@ -38,7 +38,7 @@ Read [the skill](skills/icloud-mail-setup/SKILL.md) for the workflow. References
 
 ## Insurance, not overcoverage
 
-Two lanes, same app-specific password: Himalaya (proven first, zero provisioning) + GigaMail scoped reader (rollback when one chokes). Same secret, same fate — different tool failure modes. Fallback never repairs a shared invalid credential; it covers tools, not trust.
+Two lanes, same app-specific password: GigaMail scoped reader primary, Himalaya fallback (proven first, zero provisioning — the rollback when one chokes). Same secret, same fate — different tool failure modes. Fallback never repairs a shared invalid credential; it covers tools, not trust.
 
 ## Credentials: one copy, purge the rest
 
