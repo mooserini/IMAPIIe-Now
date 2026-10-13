@@ -27,9 +27,10 @@ platform transcript retention must be assessed separately before live access.
 ## Secrets stay outside the model
 
 The app-specific password must never enter model context, logs, reports, or
-analytics. The human places it unobserved in their own private `.env`, outside
-this repository, as `APPLE_IMAP_PWD`. An approved local helper resolves only
-that variable internally at call time; the secret is used for TLS-protected
+analytics. The human places it unobserved in their own operator-approved
+host-side secret store (default: a private `.env`, outside this repository,
+as `APPLE_IMAP_PWD`). An approved local helper resolves only that stored
+value internally at call time; the secret is used for TLS-protected
 Apple IMAP authentication, not returned as tool output or passed through chat,
 child-process arguments, or an exported child-process environment.
 
@@ -42,7 +43,7 @@ cannot keep secrets out of model-visible output and logs, stop the live check.
 ## Retention: one copy, purge the rest
 
 Keep exactly **one operator-held stored copy** of the app-specific password in
-the operator's private, owner-only, nonsymlink `.env`. Do not put credentials in
+the operator's approved store (default: private, owner-only, nonsymlink `.env`). Do not put credentials in
 this package, source control, deliverables, shared folders, or a second bridge
 store. The [.gitignore](.gitignore) is a guardrail, not secret storage or a way
 to remove secrets already tracked by Git.

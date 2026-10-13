@@ -42,8 +42,8 @@ Two lanes, same app-specific password: Himalaya (proven first, zero provisioning
 
 ## Credentials: one copy, purge the rest
 
-- The human hand-places one app-specific password in their own `.env` as `APPLE_IMAP_PWD`. Agents verify *around* it — the value never enters model context, logs, or reports.
-- Live reads resolve that one var at call time (same pattern as Himalaya's `password.command`). No second copy in a bridge store, no symlink at the whole `.env`.
+- The human hand-places one app-specific password in their operator-approved host-side secret store (default: own `.env` as `APPLE_IMAP_PWD`). Agents verify *around* it — the value never enters model context, logs, or reports.
+- Live reads resolve that one stored value at call time (same pattern as Himalaya's `password.command`). No second copy in a bridge store, no symlink at the whole store.
 - Any bridge provisioning is transient: after the approved read, remove the provisioned secret and temp artifacts, verify back to one copy, report the cleanup. Retention as a working credential needs its own documented exception.
 - Why: even a harmless leftover in a shared folder confuses multi-agent hosts, shadowing rotation with stale creds.
 

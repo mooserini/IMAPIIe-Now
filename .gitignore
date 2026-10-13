@@ -3,7 +3,8 @@
 .env
 .env.*
 *.pem
-*secret*
-*credential*
 config.toml
+credentials.json
+secrets.json
 *.key
+*.p12

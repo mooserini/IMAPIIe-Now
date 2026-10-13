@@ -18,8 +18,8 @@ Selection: unread only; at most five headers; no bodies or attachments
 Route: Configured-host IMAP, using <absolute path to the existing scoped reader>
 Mail endpoint: imap.mail.me.com:993, with verified TLS
 
-On that host, resolve my one existing operator-held APPLE_IMAP_PWD copy
-internally at call time. Authenticate the named account, inspect the exact
+On that host, resolve my one existing operator-held secret (default identifier
+`APPLE_IMAP_PWD`) internally at call time. Authenticate the named account, inspect the exact
 folder's metadata, and fetch the permitted headers only. Verify the current
 helper can express this scope and preserve unread flags with a non-mutating
 read strategy before using it. Before/after metadata checks for flag
