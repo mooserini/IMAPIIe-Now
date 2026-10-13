@@ -12,7 +12,8 @@
     "com.openai": {
       "interface": {
         "displayName": "IMAPIIe Now",
-        "shortDescription": "IMAPIIe Now — platform-agnostic IMAP guidance",
+        "shortDescription": "Platform-agnostic IMAP guide",
+        "developerName": "Thomas Kenny",
         "longDescription": "IMAPIIe Now (canonical ID apple-and-icloud-mail) — portable open-source guidance for IMAP setup and bounded connection checks using separately configured tools. The name combines IMAP + IIe (two capital I's after IMAP). Community project; no Apple affiliation. Calendar, Contacts, Drive, Photos, and other Apple services are outside version 0.1.0.",
         "category": "Productivity",
         "logo": "./assets/imapiie-now-icon-512.png",

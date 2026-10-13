@@ -12,3 +12,4 @@ Final banner: grand-reveal image, operator-nominated.
 - `assets/banner-1792x896.jpg`: 2:1 center crop of original.
 - `assets/banner-1280x640.jpg`: social/banner slot, scaled from the 2:1 crop.
 - `assets/banner-1280x720.jpg`: README width, 16:9 full-frame scaled from original.
+- Icons (`assets/imapiie-now-icon-128/256/512.png`): operator-made set replacing the first committed placeholders. Pear-and-laptop art with the `IMAPIIe Now` headline in serif (capital-I/lowercase-l render as identical bars); no Apple logo or trademarked likeness. Generation tooling operator-side; these files are the canonical icon set.
