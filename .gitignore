@@ -1,0 +1,9 @@
+# IMAPIIe Now: keep operator configuration and secrets out of the package.
+# Independent community project; no Apple affiliation.
+.env
+.env.*
+*.pem
+*secret*
+*credential*
+config.toml
+*.key

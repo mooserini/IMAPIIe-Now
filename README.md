@@ -1,10 +1,27 @@
-# IMAPlle Now
+# IMAPIIe Now
+
+[![IMAPIIe Now — MIT license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![IMAPIIe Now — GitHub release](https://img.shields.io/github/v/release/mooserini/IMAPlle-Now?color=grey)](https://github.com/mooserini/IMAPlle-Now/releases)
+[![IMAPIIe Now — GitHub stars](https://img.shields.io/github/stars/mooserini/IMAPlle-Now?color=grey)](https://github.com/mooserini/IMAPlle-Now/stargazers)
+![IMAPIIe Now — platform-agnostic](https://img.shields.io/badge/platform-agnostic-grey)
 
 > A platform-agnostic IMAP plugin. Portable setup guidance + bounded connection checks any agent platform can adapt.
 
-![IMAPlle Now banner](assets/banner-1280x720.jpg)
+![IMAPIIe Now banner](assets/banner-1280x720.jpg)
 
-Canonical package ID: `apple-and-icloud-mail` (directory + manifest `name`, unchanged). Display name **IMAPlle Now** uses the single-P spelling on purpose — no Apple affiliation, endorsement, or full Apple-service coverage implied. Calendar, Contacts, Drive, Photos, Keychain, and Apple Mail automation are outside scope.
+> **Which door for IMAPIIe Now?**
+>
+> - **Copilot / Cursor / OpenClaw:** zero changes — start with [the skill](skills/icloud-mail-setup/SKILL.md).
+> - **Claude:** a `.claude-plugin` wrapper is coming.
+> - **Hermes:** tap today; catalog next.
+> - **OpenAI:** directory submission pending.
+> - **Everyone else:** keep reading.
+
+Canonical package ID: `apple-and-icloud-mail` (directory + manifest `name`, unchanged).
+
+**IMAPIIe Now** combines IMAP + IIe, a nod to the Apple IIe; no Apple affiliation or endorsement.
+
+Calendar, Contacts, Drive, Photos, Keychain, and Apple Mail automation are outside scope.
 
 ## What it is
 
@@ -32,15 +49,21 @@ Two lanes, same app-specific password: Himalaya (proven first, zero provisioning
 
 ## Try it without authenticating
 
+<p>
+  <a href="examples/"><img src="assets/imaplle-now-icon-256.png" alt="IMAPIIe Now examples" width="128"></a>
+</p>
+
+[One-line prompt](examples/01-one-liner.md) · [Offline inventory](examples/02-offline-inventory.md) · [Scoped live-read proposal](examples/03-scoped-live-read.md) (separate authorization required).
+
 ```text
-Use IMAPlle Now to review my IMAP setup without authenticating.
+Use IMAPIIe Now to review my IMAP setup without authenticating.
 ```
 
 Offline inventory, manifest/skill validation, and link checks run with no mail access. Publishing honest docs needs no authentication; any live mail proof needs its own concrete authorization (exact host, account, folder, selection, route).
 
 ## Provenance
 
-Banner: grand-reveal art, operator-nominated (see [assets/PROVENANCE.md](assets/PROVENANCE.md)). Original retained as canopy; crops are center-crops. Earlier smoke candidates live outside this package. Subject line in art reads `IMAPIle Now` in pixel font — adopted public spelling `IMAPlle Now`.
+Banner: grand-reveal art, operator-nominated (see [assets/PROVENANCE.md](assets/PROVENANCE.md)). Original retained as canopy; crops are center-crops. Earlier smoke candidates live outside this package. Legacy lettering in the art predates the display name **IMAPIIe Now**.
 
 ## Install / rollback
 
