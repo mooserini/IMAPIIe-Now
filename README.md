@@ -1,8 +1,8 @@
 # IMAPIIe Now
 
 [![IMAPIIe Now — MIT license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![IMAPIIe Now — GitHub release](https://img.shields.io/github/v/release/mooserini/IMAPlle-Now?color=grey)](https://github.com/mooserini/IMAPlle-Now/releases)
-[![IMAPIIe Now — GitHub stars](https://img.shields.io/github/stars/mooserini/IMAPlle-Now?color=grey)](https://github.com/mooserini/IMAPlle-Now/stargazers)
+[![IMAPIIe Now — GitHub release](https://img.shields.io/github/v/release/mooserini/IMAPIIe-Now?color=grey)](https://github.com/mooserini/IMAPIIe-Now/releases)
+[![IMAPIIe Now — GitHub stars](https://img.shields.io/github/stars/mooserini/IMAPIIe-Now?color=grey)](https://github.com/mooserini/IMAPIIe-Now/stargazers)
 ![IMAPIIe Now — platform-agnostic](https://img.shields.io/badge/platform-agnostic-grey)
 
 > A platform-agnostic IMAP plugin. Portable setup guidance + bounded connection checks any agent platform can adapt.
@@ -50,7 +50,7 @@ Two lanes, same app-specific password: Himalaya (proven first, zero provisioning
 ## Try it without authenticating
 
 <p>
-  <a href="examples/"><img src="assets/imaplle-now-icon-256.png" alt="IMAPIIe Now examples" width="128"></a>
+  <a href="examples/"><img src="assets/imapiie-now-icon-256.png" alt="IMAPIIe Now examples" width="128"></a>
 </p>
 
 [One-line prompt](examples/01-one-liner.md) · [Offline inventory](examples/02-offline-inventory.md) · [Scoped live-read proposal](examples/03-scoped-live-read.md) (separate authorization required).

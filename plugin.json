@@ -15,8 +15,8 @@
         "shortDescription": "IMAPIIe Now — platform-agnostic IMAP guidance",
         "longDescription": "IMAPIIe Now (canonical ID apple-and-icloud-mail) — portable open-source guidance for IMAP setup and bounded connection checks using separately configured tools. The name combines IMAP + IIe (two capital I's after IMAP). Community project; no Apple affiliation. Calendar, Contacts, Drive, Photos, and other Apple services are outside version 0.1.0.",
         "category": "Productivity",
-        "logo": "./assets/imaplle-now-icon-512.png",
-        "composerIcon": "./assets/imaplle-now-icon-128.png",
+        "logo": "./assets/imapiie-now-icon-512.png",
+        "composerIcon": "./assets/imapiie-now-icon-128.png",
         "defaultPrompt": ["Use IMAPIIe Now to review my IMAP setup without authenticating."]
       }
     }
