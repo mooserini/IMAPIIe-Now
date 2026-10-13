@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "apple-and-icloud-mail",
+  "version": "0.1.0",
+  "description": "A platform-agnostic IMAP plugin — portable setup guidance plus bounded connection checks.",
+  "license": "MIT",
+  "keywords": ["imap", "mail", "icloud", "setup", "platform-agnostic"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "IMAPlle Now",
+        "shortDescription": "A platform-agnostic IMAP plugin",
+        "longDescription": "IMAPlle Now (canonical ID apple-and-icloud-mail) — portable open-source guidance for IMAP setup and bounded connection checks using separately configured tools. Single-P spelling is intentional. Community project; no Apple affiliation. Calendar, Contacts, Drive, Photos, and other Apple services are outside version 0.1.0.",
+        "category": "Productivity",
+        "defaultPrompt": ["Use IMAPlle Now to review my IMAP setup without authenticating."]
+      }
+    }
+  }
+}
