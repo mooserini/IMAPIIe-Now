@@ -1,8 +1,8 @@
-# Banner provenance — IMAPlle Now
+# Banner provenance — IMAPIIe Now
 
 Final banner: grand-reveal image, operator-nominated.
 - Source file in this package: `assets/banner-original.jpg` (copy of scratch `icloud-proof/inbox/grok-3d4c3372-b4fe-4b0f-a401-fede501dc4ff.jpg`, 1792x1008).
-- Subject line in image: `IMAPIle Now` (pixel font; 5th glyph reads as capital-I — adopted public spelling `IMAPlle Now`, single-P intentional, no Apple affiliation).
+- Subject line in image: `IMAPIle Now` (pixel font; 5th glyph reads as capital-I — adopted public spelling `IMAPIIe Now`, IMAP + IIe nod, no Apple affiliation).
 - Body line in image: `A platform-agnostic IMAP plugin.`
 - Generation provenance for final art was not recorded; arrived from the operator as the third smoke (grand-reveal subject naming the plugin).
 - Earlier candidates preserved outside this package in scratch `icloud-proof/inbox/`:

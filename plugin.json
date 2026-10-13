@@ -2,17 +2,22 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "apple-and-icloud-mail",
   "version": "0.1.0",
-  "description": "A platform-agnostic IMAP plugin — portable setup guidance plus bounded connection checks.",
+  "description": "IMAPIIe Now — platform-agnostic IMAP setup guidance and bounded connection checks.",
+  "author": {
+    "name": "Thomas Kenny"
+  },
   "license": "MIT",
   "keywords": ["imap", "mail", "icloud", "setup", "platform-agnostic"],
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "IMAPlle Now",
-        "shortDescription": "A platform-agnostic IMAP plugin",
-        "longDescription": "IMAPlle Now (canonical ID apple-and-icloud-mail) — portable open-source guidance for IMAP setup and bounded connection checks using separately configured tools. Single-P spelling is intentional. Community project; no Apple affiliation. Calendar, Contacts, Drive, Photos, and other Apple services are outside version 0.1.0.",
+        "displayName": "IMAPIIe Now",
+        "shortDescription": "IMAPIIe Now — platform-agnostic IMAP guidance",
+        "longDescription": "IMAPIIe Now (canonical ID apple-and-icloud-mail) — portable open-source guidance for IMAP setup and bounded connection checks using separately configured tools. The name combines IMAP + IIe (two capital I's after IMAP). Community project; no Apple affiliation. Calendar, Contacts, Drive, Photos, and other Apple services are outside version 0.1.0.",
         "category": "Productivity",
-        "defaultPrompt": ["Use IMAPlle Now to review my IMAP setup without authenticating."]
+        "logo": "./assets/imaplle-now-icon-512.png",
+        "composerIcon": "./assets/imaplle-now-icon-128.png",
+        "defaultPrompt": ["Use IMAPIIe Now to review my IMAP setup without authenticating."]
       }
     }
   }
