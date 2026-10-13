@@ -7,7 +7,7 @@ references, not a mail runtime, credential store, or enforced security sandbox.
 ## Report a problem
 
 Report security concerns through this repository's
-[GitHub issues](https://github.com/mooserini/IMAPlle-Now/issues). Issues are public;
+[GitHub issues](https://github.com/mooserini/IMAPIIe-Now/issues). Issues are public;
 submit a sanitized description, affected package/tool versions, expected
 behavior, and a minimal reproduction using synthetic data. There is no security
 contact email or private reporting service provided by this package.

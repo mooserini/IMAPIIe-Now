@@ -62,7 +62,7 @@ replaces the one held copy through hidden intake. See
 
 ## Support
 
-Use this repository's [GitHub issues](https://github.com/mooserini/IMAPlle-Now/issues)
+Use this repository's [GitHub issues](https://github.com/mooserini/IMAPIIe-Now/issues)
 for support or privacy concerns. Issues are public: provide synthetic examples,
 nonsecret version metadata, and safe failure categories only. Never paste
 secrets or private mail. No support or security contact email is provided.
