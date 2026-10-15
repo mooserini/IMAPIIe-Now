@@ -32,7 +32,7 @@ Any approved bridge provisioning is transient: after the approved operation, inc
 
 ## Choose and check the transport
 
-Read [transports.md](references/transports.md) before using a live tool or helper. Use an existing bridge only when its current schema or inspected helper can express the authorized account, exact folder, selection, and flags policy. Reference a separately installed helper by its user-resolved path; none is bundled here.
+Read [transports.md](references/transports.md) before using a live tool or helper. Use an existing bridge only when its current schema or inspected helper can express the authorized account, exact folder, selection, and flags policy. Two reviewed helpers ship under `helpers/` (pinned copies; see `helpers/PROVENANCE.md`) — prefer them; reference a separately installed helper by its user-resolved path only when the operator restricts to a named route.
 
 Switch to a configured Himalaya fallback only within existing authorization, preserving account, folder, selection, pagination, and stable identities. Failure is not permission to try another account, INBOX, all messages, TLS bypass, credential replacement, or broader tools. If the user asks to broaden scope, resolve the specific account/folder/action before attempting it. Authentication rejection, revoked credentials, inaccessible storage, missing/ambiguous folders, permission denial, and UIDVALIDITY changes require a blocked or incomplete report, not an empty result. Fallback may help an unavailable primary reader; it does not repair a shared invalid credential or locked store.
 
